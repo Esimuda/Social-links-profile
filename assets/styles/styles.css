@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: hsl(0, 0%, 8%);
+}
+
+body {
+  box-sizing: content-box;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50;
+  width: 400px;
+  padding: 50px;
+  background-color: hsl(0, 0%, 12%);
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+}
+
+img {
+  width: 50%;
+  border-radius: 50%;
+  justify-content: center;
+  margin: 5px 40px;
+  padding: 0px 50px;
+}
+
+h2 {
+  padding: 5px 110px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  padding: 5px 100px;
+}
+
+.purpose {
+  padding: 10px 60px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin: 15pxpx;
+}
+
+button {
+  margin: 5px;
+  padding: 15px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  box-sizing: border-box;
+  box-shadow: none;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+button:active {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
+.attribution {
+  flex-direction: row;
+  padding: 10px 20px;
+}
